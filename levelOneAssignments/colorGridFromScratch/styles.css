@@ -1,0 +1,128 @@
+div {
+    display: inline-block;
+    height: 100px;
+}
+
+.lightPink {
+    background-color: #F5C6D6;
+    width: 10040px;
+}
+
+.darkPink {
+    background-color: #EE2E84;
+}
+
+.lightBlue {
+    background-color: #85CFD8;
+}
+
+.green {
+    background-color: #8DC63F;
+}
+
+.orange {
+    background-color: #E76E34;
+}
+
+
+/* @media (min-width: 1000px) {
+    .lightPink {}
+    .darkPink {}
+    .lightBlue {}
+    .green {}
+    .orange {}
+} */
+
+
+/* Iphone and smaller */
+
+@media only screen and (min-width: 300px) {
+    .lightPink {
+        width: 356px;
+    }
+    .darkPink {
+        width: 86px;
+    }
+    .lightBlue {
+        width: 176px;
+    }
+    .green {
+        width: 266px;
+    }
+    .orange {
+        width: 86px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .lightPink {
+        width: 585px;
+    }
+    .darkPink {
+        width: 143px;
+    }
+    .lightBlue {
+        width: 290px;
+    }
+    .green {
+        width: 450px;
+    }
+    .orange {
+        width: 130px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .lightPink {
+        width: 751px;
+    }
+    .darkPink {
+        width: 185px;
+    }
+    .lightBlue {
+        width: 374px;
+    }
+    .green {
+        width: 560px;
+    }
+    .orange {
+        width: 188px;
+    }
+}
+
+/* ipad pro  */
+@media only screen and (min-width: 900px) and (max-width: 1040px) {
+    .lightPink {
+        width: 1007px;
+    }
+    .darkPink {
+        width: 249px;
+    }
+    .lightBlue {
+        width: 502px;
+    }
+    .green {
+        width: 750px;
+    }
+    .orange {
+        width: 250px;
+    }
+}
+
+@media only screen and (min-width: 1040px) {
+    .lightPink {
+        width: 1263px;
+    }
+    .darkPink {
+        width: 313px;
+    }
+    .lightBlue {
+        width: 630px;
+    }
+    .green {
+        width: 945px;
+    }
+    .orange {
+        width: 314px;
+    }
+}

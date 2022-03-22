@@ -1,0 +1,7 @@
+.box-one{
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    border: solid black 1.5px;
+}
+
