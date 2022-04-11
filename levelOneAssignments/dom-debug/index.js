@@ -36,3 +36,7 @@ function createSubItem(e) {
 
     return subItem
 }
+
+let headText = document.createElement("p") //p should be a string
+headText.textContent = "dwgsfg"
+document.getel //Your getElementById(headText) should be input as a string = //try to append an element to an element/id that does not exist - trying appending to an element with an id in HTML on it
