@@ -1,0 +1,45 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+.container>div {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border: solid black 1px;
+}
+
+#goombaImg {
+    height: 250px;
+    width: 250px;
+}
+
+#bobombImg {
+    height: 250px;
+    width: 250px;
+}
+
+#cheepCheepImg {
+    height: 250px;
+    width: 250px;
+}
+
+input {
+    width: 185px;
+    align-content: center;
+}
+
+.output-container {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+}
+
+.output {
+    margin-top: 125px;
+    border: solid black 1px;
+    height: 250px;
+    width: 250px;
+}

@@ -5,7 +5,6 @@ const submitButton = document.getElementById("submit")
 
 let mathRadio = form.math
 
-
 submitButton.addEventListener("click", function(e) {
     e.preventDefault()
     let valueOne = input1.value
@@ -13,7 +12,6 @@ submitButton.addEventListener("click", function(e) {
     switch (mathRadio.value) {
         case "add":
             console.log(parseInt(valueOne) + parseInt(valueTwo))
-
             break;
         case "subtract":
             console.log(parseInt(valueOne) - parseInt(valueTwo))
@@ -24,7 +22,6 @@ submitButton.addEventListener("click", function(e) {
         case "divide":
             console.log(parseInt(valueOne) / parseInt(valueTwo))
             break;
-
         default:
             break;
     }
